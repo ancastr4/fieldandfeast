@@ -11,11 +11,28 @@ soft-white: #FAF9F6;
 /* IMPORTED FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
-Playfair Display
 
+* {
+    font-family: Playfair Display;
+    margin: 0;
+    padding: 0;
+}
 /* CSS RESET */
 
+
 /* ROOT VARIABLES */
+html, body { 
+    background-color: soft-white: #FAF9F6;
+}
+
+body {
+
+}
+
+header {
+    background-color: midnight-blue: #1F2A44;
+
+}
 
 /* GLOBAL STYLES (mobile first/small) */
 
