@@ -1,12 +1,4 @@
 /* CSS BY Ali Castro */
-midnight-blue: #1F2A44;
-olive-green: #76885B;
-champagne-gold: #E5C185;
-linen: #F8F4EC;
-dark-charcoal: #2B2B2B;
-soft-white: #FAF9F6;
-
-
 
 /* IMPORTED FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
@@ -22,7 +14,7 @@ soft-white: #FAF9F6;
 
 /* ROOT VARIABLES */
 html, body { 
-    background-color: soft-white: #FAF9F6;
+    background-color: #FAF9F6;
 }
 
 body {
@@ -30,18 +22,32 @@ body {
 }
 
 header {
-    background-color: midnight-blue: #1F2A44;
+    background-color:#1F2A44;
+    color: #FAF9F6;
 
 }
 
 nav { 
-    background-color: champagne-gold: #E5C185;
+    color: #1F2A44;
+    background-color: #E5C185;
 }
 
+
+#about {
+    color: 
+}
 /* GLOBAL STYLES (mobile first/small) */
+@media screen and (min-width: )
 
 /* MEDIA QUERY (medium) */
 
 /* MEDIA QUERY (large) */
 
 /* MEDIA QUERY (xl) */
+
+midnight-blue: #1F2A44;
+olive-green: #76885B;
+champagne-gold: #E5C185;
+linen: #F8F4EC;
+dark-charcoal: #2B2B2B;
+soft-white: #FAF9F6;
