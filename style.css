@@ -33,8 +33,13 @@ nav {
 }
 
 
-#about {
-    color: 
+main {
+    background-color: 
+}
+
+#offerings { 
+    background-color: #76885B;
+        color: #FAF9F6;
 }
 /* GLOBAL STYLES (mobile first/small) */
 @media screen and (min-width: )
