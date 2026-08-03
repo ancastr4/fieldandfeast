@@ -24,31 +24,55 @@ body {
 header {
     background-color:#1F2A44;
     color: #FAF9F6;
-
 }
 
 nav { 
+     background-color: #E5C185;
+}
+
+nav a { 
     color: #1F2A44;
+    text-decoration: none;
     background-color: #E5C185;
+
 }
 
 
 main {
-    background-color: 
+    background-color: #FAF9F6;
 }
 
 #offerings { 
     background-color: #76885B;
         color: #FAF9F6;
+        display: block;
+        background-color: #76885B;
+        padding: 1em;
+        margin: 1em;
+        border-radius: 25px;
+
+        
+}
+
+footer { 
+    color: #1F2A44; 
 }
 /* GLOBAL STYLES (mobile first/small) */
-@media screen and (min-width: )
+@media screen and (min-width: small){
+
+}
 
 /* MEDIA QUERY (medium) */
+@media screen and (min-width: 600px) {
+}
 
 /* MEDIA QUERY (large) */
+@media screen and (min-width: 900px) {
+}
 
 /* MEDIA QUERY (xl) */
+@media screen and (min-width: 1200px) {
+}
 
 midnight-blue: #1F2A44;
 olive-green: #76885B;
