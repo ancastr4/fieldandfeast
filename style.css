@@ -5,7 +5,8 @@
 
 
 * {
-    font-family: Playfair Display;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -15,19 +16,31 @@
 /* ROOT VARIABLES */
 html, body { 
     background-color: #FAF9F6;
-}
-
-body {
-
+    color: #1F2A44;
 }
 
 header {
     background-color:#1F2A44;
     color: #FAF9F6;
+    text-align: center;
+    padding: 2em 2em;
+}
+
+header img {
+    max-width: 130px;
+    margin: 0 auto 1em auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
 nav { 
      background-color: #E5C185;
+     display: flex;
+     
 }
 
 nav a { 
@@ -46,7 +59,6 @@ main {
         background-color: #76885B;
         color: #FAF9F6;
         display: block;
-        background-color: #76885B;
         padding: 1em;
         margin: 1em;
         border-radius: 25px;
@@ -58,7 +70,7 @@ footer {
     color: #1F2A44; 
 }
 /* GLOBAL STYLES (mobile first/small) */
-@media screen and (min-width: small){
+@media screen and (min-width: 400px){
 }
 
 /* MEDIA QUERY (medium) */
