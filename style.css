@@ -40,7 +40,9 @@ img {
 nav { 
      background-color: #E5C185;
      display: flex;
-     
+     justify-content: center;
+     padding: 1em;
+     gap: 1em;
 }
 
 nav a { 
