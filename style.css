@@ -43,6 +43,7 @@ nav {
      justify-content: center;
      padding: 1em;
      gap: 1em;
+     font-weight: bold;
 }
 
 nav a { 
@@ -57,15 +58,23 @@ main {
     background-color: #FAF9F6;
 }
 
+div {
+padding: 1em;
+}
+
 #offerings { 
         background-color: #76885B;
         color: #FAF9F6;
         display: block;
-        padding: 1em;
+        padding: 1em 1em;
         margin: 1em;
         border-radius: 25px;
 
         
+}
+
+figure {
+    max-width: ;
 }
 
 footer { 
@@ -73,16 +82,23 @@ footer {
 }
 /* GLOBAL STYLES (mobile first/small) */
 @media screen and (min-width: 400px){
+
 }
 
 /* MEDIA QUERY (medium) */
 @media screen and (min-width: 600px) {
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
 }
 
 /* MEDIA QUERY (large) */
 @media screen and (min-width: 900px) {
+
 }
 
 /* MEDIA QUERY (xl) */
 @media screen and (min-width: 1200px) {
+
 }
